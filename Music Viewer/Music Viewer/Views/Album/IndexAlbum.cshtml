@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Music_Viewer.Models.DB_Models.Album>
+<br />
+
+<div class="text-center">
+    <h1>Albums</h1>
+    <p>A Complete List of All Albums Stored So Far</p>
+</div>
+
+<hr />
+
+<div>
+    <center>
+        <table style="width: 100%;">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var album in Model) {
+                    <tr>
+                        <td style="width:220px;">
+                            <img src=@album.AlbumArt style="width: 220px; height: auto; float: left;" />
+                        </td>
+                        <td style="vertical-align: text-top; padding-left:20px;">
+                            <p style="font-size:14pt; font-weight:bold;">@album.Name</p>
+                            <p style="margin-top:-1.25em;">@album.Artist.Name</p>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </center>
+</div>

@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Music_Viewer.Models.DB_Models.Song>
+<br />
+
+<div class="text-center">
+    <h1>Songs</h1>
+    <p>A Complete List of All Songs Stored So Far</p>
+</div>
+
+<br />
+
+<div>
+    <table class="table">
+        <thead>
+            <tr style="font-size: 14pt;">
+                <th>Name</th>
+                <th>Artist</th>
+                <th>Album</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var song in Model) {
+                <tr>
+                    <td>@song.Name</td>
+                    <td>@song.Artist.Name</td>
+                    <td>@song.Album.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

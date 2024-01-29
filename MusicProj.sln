@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicApi", "MusicApi\MusicApi.csproj", "{9E2541F3-9505-483D-B6BA-36495933CB16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Music Viewer", "..\Music Viewer\Music Viewer\Music Viewer.csproj", "{B2658667-60E1-4503-8AF5-502DEAE9CD03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E2541F3-9505-483D-B6BA-36495933CB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2541F3-9505-483D-B6BA-36495933CB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2541F3-9505-483D-B6BA-36495933CB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2541F3-9505-483D-B6BA-36495933CB16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2658667-60E1-4503-8AF5-502DEAE9CD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2658667-60E1-4503-8AF5-502DEAE9CD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2658667-60E1-4503-8AF5-502DEAE9CD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2658667-60E1-4503-8AF5-502DEAE9CD03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5F9DE3F-AB08-4394-8077-D4DEC23B8735}
+	EndGlobalSection
+EndGlobal
